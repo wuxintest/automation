@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="tdscroll" value="\properties\scroll\scrolldata.properties"></parameter>
+	<parameter name="txscroll" value="\properties\scroll\scrollxpath.properties"></parameter>
+	<test name="scroll" preserve-order="true">
+		<classes>
+			<class name="scroll.TestScroll"> 
+				<methods>
+					<include name="testScroll"></include>
+					<include name="dragAndDrop"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

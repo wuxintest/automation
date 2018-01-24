@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="iframexpath" value="\properties\iframe\switchiframexpath.properties" />
+	<parameter name="iframedata" value="\properties\iframe\switchiframedata.properties"></parameter>
+	<test name="jquery滑动块" preserve-order="true">
+		<classes>
+			<class name="iframeandscroll.TestIframe">
+				<methods>
+					<include name="changIframe"></include>
+					<include name="selectItemFromDropDownList"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

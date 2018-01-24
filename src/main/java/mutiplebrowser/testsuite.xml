@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="platform" value="Firefox" />
+	<test name="model1" preserve-order="true">
+		<groups>
+			<define name="submodule1"></define>
+			<define name="submodule2"></define>
+			<define name="submodule3"></define>
+			<define name="submodule4"></define>
+			
+			<define name="IE">
+				<include name="submodule1" />
+				<include name="submodule2" />
+			</define>
+			<define name="Firefox">
+				<include name="submodule2" />
+				<include name="submodule3" />
+			</define>
+			<define name="Chrome">
+				<include name="submodule3" />
+				<include name="submodule4" />
+			</define>
+			
+			<run>
+				<include name="Firefox" />
+				<include name="browsers"></include>
+			</run>
+			
+			<classes>
+				<class name="mutiplebrowser.MutipleBrowsers" />
+			</classes>
+		</groups>
+	</test>
+</suite>

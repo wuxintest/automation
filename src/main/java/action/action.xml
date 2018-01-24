@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="actiondata" value="\properties\action\actiondata.properties"></parameter>
+	<parameter name="actionxpath" value="\properties\action\actionxpath.properties"></parameter>
+	<test name="action" preserve-order="true">
+		<classes>
+			<class name="action.TestAction">
+				<methods>
+					<include name="testAction"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

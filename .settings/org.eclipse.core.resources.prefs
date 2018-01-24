@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//properties/action/actiondata.properties=UTF-8
+encoding//properties/action/actionxpath.properties=UTF-8
+encoding//properties/changwindow/changewindowdata.properties=UTF-8
+encoding//properties/changwindow/changewindowxpath.properties=UTF-8
+encoding//properties/iframe/switchiframedata.properties=UTF-8
+encoding//properties/iframe/switchiframexpath.properties=UTF-8
+encoding//properties/scroll/scrolldata.properties=UTF-8
+encoding//properties/scroll/scrollxpath.properties=UTF-8
+encoding//properties/select/selectdata.properties=UTF-8
+encoding//properties/select/selectxpath.properties=UTF-8
+encoding//src/main/java=UTF-8
+encoding//src/main/java/parameter/parameterinstance.xml=ISO-8859-1
+encoding//src/test/java=UTF-8
+encoding//tool/locator.properties=UTF-8
+encoding/<project>=UTF-8

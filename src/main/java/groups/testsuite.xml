@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<test name="test" preserve-order="true">
+		<groups>
+			<define name="submodule1"></define>
+			<define name="submodule2"></define>
+			<define name="submodule3"></define>
+			<define name="module1">
+				<include name="submodule1"></include>
+				<include name="submodule2"></include>
+			</define>
+			<define name="module2">
+				<include name="submodule2"></include>
+				<include name="submodule3"></include>
+			</define>
+			<run>
+				<include name="module1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="groups.TestngOnGroups"/>
+		</classes>
+	</test>
+	
+</suite>

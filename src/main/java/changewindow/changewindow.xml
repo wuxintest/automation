@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="changewd" value="\properties\changwindow\changewindowdata.properties"></parameter>
+	<parameter name="changewx" value="\properties\changwindow\changewindowxpath.properties"></parameter>
+	<test name="switchwindow" preserve-order="true">
+		<classes>
+			<class name="changewindow.TestChangeWindow">
+				<methods>
+					<include name="changeWindow" />
+					<include name="testSwitch" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

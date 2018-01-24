@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<suite name="automation">
+	<parameter name="TestData" value="\tool\test.properties" />
+	<test name="ptest" preserve-order="true">
+		<classes>
+			<class name="parameter.TestParameter" />
+			<methods>
+				<include name="test" />
+			</methods>
+		</classes>
+	</test>
+</suite>

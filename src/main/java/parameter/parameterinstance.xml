@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<suite name="automation">
+	<parameter name="data" value="\tool\test.properties" />
+	<parameter name="locator" value="\tool\locator.properties" />
+	<test name="datatest" preserve-order="true">
+		<classes>
+			<class name="parameter.ParameterInstance">
+				<methods>
+					<includ name="accessMail" />
+					<includ name="restriveMainIsIn" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

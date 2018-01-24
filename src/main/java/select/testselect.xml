@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation">
+	<parameter name="selectdata" value="\properties\select\selectdata.properties" />
+	<parameter name="selectxpath" value="\properties\select\selectxpath.properties" />
+	<test name="select" preserve-order="true">
+		<classes>
+			<class name="select.TestSelect">
+				<methods>
+					<include name="selectItemFromDropDownList"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
